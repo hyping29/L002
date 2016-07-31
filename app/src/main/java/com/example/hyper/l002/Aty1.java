@@ -1,6 +1,7 @@
 package com.example.hyper.l002;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -21,6 +22,9 @@ public class Aty1 extends Activity {
         btnClose.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                Intent i = new Intent();
+                i.putExtra("result","Hello mainActivity!");
+                setResult(0, i);
                 finish();
             }
         });

@@ -13,14 +13,14 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hello World!"
-        android:id="@+id/textView2" />
+        android:id="@+id/tvOut" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/act_name"
         android:id="@+id/btnStartAty1"
-        android:layout_below="@+id/textView2"
+        android:layout_below="@+id/tvOut"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_marginTop="35dp" />
